@@ -1,0 +1,11 @@
+expr = "b * c + b * c"
+print("Original Expression:", expr)
+print("\nUnoptimized Code:")
+print("t1 = b * c")
+print("t2 = b * c")
+print("t3 = t1 + t2")
+print("a = t3")
+print("\nOptimized Code:")
+print("t1 = b * c")
+print("t2 = t1 + t1")
+print("a = t2")
